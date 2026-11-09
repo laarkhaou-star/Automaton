@@ -4,6 +4,7 @@
  * @author David J. Barnes and Michael Kölling
  * @version 7.1
  */
+//q3: yes the same patterns emerge
 public class AutomatonController
 {
     // The automaton.
