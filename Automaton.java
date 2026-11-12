@@ -44,8 +44,8 @@ public class Automaton
     /**
      * Update the automaton to its next state.
      */
-    //q6
-    public void update()
+  
+    public void update()  //q6
     {
         // Build the new state in a separate array.
         int[] nextState = new int[state.length];
