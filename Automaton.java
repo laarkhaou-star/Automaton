@@ -5,7 +5,8 @@ import java.util.Arrays;
  * 
  * @author David J. Barnes and Michael Kölling
  * @version 7.1
- */
+ *///q3: when repeating the process after calling the reset method the same patterns emerge.
+//q4: the fill method is responsable to make the state go back to 0 which makes it repeat from the start.
 public class Automaton
 {
     // The number of cells.
@@ -29,8 +30,15 @@ public class Automaton
      * Print the current state of the automaton.
      */
     public void print()
-    {
-        
+    {        for(int cellValue : state) {
+            if(cellValue == 1) {
+                System.out.print("*");
+            }
+            else {
+                System.out.print(" ");
+            }
+        }
+        System.out.println();
     }
 
     /**
